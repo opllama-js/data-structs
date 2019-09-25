@@ -7,8 +7,11 @@ module.exports = {
     filename: "index.js",
     library: "OPDataStructs",
     libraryTarget: "umd",
-    libraryExport: "default"
+    libraryExport: "default",
+    globalObject: "(typeof self !== 'undefined' ? self : this)",
+    umdNamedDefine: true
   },
+  mode: "production",
   devtool: "source-map",
   module: {
     rules: [
