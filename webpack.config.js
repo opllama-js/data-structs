@@ -6,7 +6,8 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "index.js",
     library: "OPDataStructs",
-    libraryTarget: "umd"
+    libraryTarget: "umd",
+    libraryExport: "default"
   },
   devtool: "source-map",
   module: {
