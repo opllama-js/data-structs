@@ -13,7 +13,6 @@ jobs:
       - run: npm install
       - run: npm run build
       - run: npx semantic-release
-      - run: npm publish --access public
       - save_cache:
           paths:
             - node_modules
