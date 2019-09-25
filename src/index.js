@@ -1,1 +1,1 @@
-console.log("about to create amazing stuff");
+export * from "./structs/single-linked-list";
