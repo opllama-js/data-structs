@@ -10,11 +10,9 @@ jobs:
           keys:
             - v1-dependencies-{{ checksum "package.json" }}
             - v1-dependencies-
-      # - run: npm install
-      # - run: npm run build
-      # - run: npx semantic-release
-      # - run: npm publish
-      - run: echo "welcome all"
+      - run: npm install
+      - run: npm run build
+      - run: npx semantic-release
       - save_cache:
           paths:
             - node_modules
