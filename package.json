@@ -3,7 +3,6 @@
   "version": "1.1.0",
   "description": "js implementation to commonly used data structures",
   "main": "dist/index.js",
-  "private": false,
   "scripts": {
     "build": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"
