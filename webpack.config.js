@@ -5,7 +5,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "index.js",
-    library: "OPDataStructs",
     libraryTarget: "umd",
     libraryExport: "default",
     globalObject: "(typeof self !== 'undefined' ? self : this)",
