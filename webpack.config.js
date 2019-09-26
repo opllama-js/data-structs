@@ -6,6 +6,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "index.js",
     libraryTarget: "umd",
+    library: "OPDataStructs",
     libraryExport: "default",
     globalObject: "(typeof self !== 'undefined' ? self : this)",
     umdNamedDefine: true
@@ -16,7 +17,8 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        loader: "babel-loader"
+        exclude: /(node_modules|bower_components)/,
+        use: "babel-loader"
       }
     ]
   },
