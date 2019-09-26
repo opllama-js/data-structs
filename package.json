@@ -1,6 +1,6 @@
 {
   "name": "@opllama.js/data-structs",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "js implementation to commonly used data structures",
   "main": "dist/index.js",
   "scripts": {
