@@ -6,7 +6,7 @@ module.exports = {
     file: "dist/index.js",
     format: "umd",
     name: "OPStructs",
-    sourcemap: "inline"
+    sourcemap: true
   },
   plugins: [
     babel({
