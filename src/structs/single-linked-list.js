@@ -3,7 +3,7 @@ import {
   REMOVE_FROM_EMPTY_STRUCT,
   INDEX_OUT_OF_BOUNDS,
   BAD_NODE
-} from "../errors";
+} from "../errors/custom";
 
 /**
  * Creates a Singly Linked List

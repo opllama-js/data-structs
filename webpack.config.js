@@ -4,7 +4,7 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "index.js",
+    filename: "opstructs.js",
     libraryTarget: "umd",
     library: "OPDataStructs",
     libraryExport: "default",
@@ -16,13 +16,10 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js)$/,
         exclude: /(node_modules|bower_components)/,
         use: "babel-loader"
       }
     ]
-  },
-  resolve: {
-    extensions: [".js"]
   }
 };
